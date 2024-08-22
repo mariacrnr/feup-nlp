@@ -1,0 +1,18 @@
+{
+    "dataset": "fr",
+    "featureExtraction": {
+      "vectorizer": "tfidf",
+      "ngrams_low": 1,
+      "ngrams_upp": 1,
+      "target": "e1",
+      "oversampling": true
+    },
+    "classification": {
+      "estimator": "svc",
+      "kernel": "rbf"
+    },
+    "results": {
+      "f1": 0.4768200063530567,
+      "accuracy": 0.75
+    }
+  }

@@ -1,0 +1,14 @@
+{
+    "dataset": "de",
+    "featureExtraction": {
+      "vectorizer": "tfidf",
+      "ngrams_low": 2,
+      "ngrams_upp": 2,
+      "target": "a1",
+      "oversampling": true
+    },
+    "classification": {
+      "estimator": "mnb",
+      "ensemble": null
+    }
+}

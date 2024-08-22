@@ -1,0 +1,17 @@
+{
+  "dataset": "de",
+  "featureExtraction": {
+    "vectorizer": "embeddings",
+    "ngrams_low": 1,
+    "ngrams_upp": 1,
+    "target": "e1",
+    "oversampling": true
+  },
+  "classification": {
+    "estimator": "lr",
+    "C": 11.288378916846883,
+    "penalty": "l2",
+    "solver": "lbfgs",
+    "ensemble": null
+  }
+}

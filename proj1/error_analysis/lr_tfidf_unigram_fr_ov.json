@@ -1,0 +1,959 @@
+{
+  "dataset": "fr",
+  "featureExtraction": {
+    "vectorizer": "tfidf",
+    "ngrams_low": 1,
+    "ngrams_upp": 1,
+    "target": "e1",
+    "oversampling": true
+  },
+  "classification": {
+    "estimator": "lr",
+    "ensemble": null
+  },
+  "results": {
+    "train_results": [
+      {
+        "start": 1680207199.0339644,
+        "end": 1680207552.9745345,
+        "best_parameters": {
+          "C": 10,
+          "solver": "lbfgs"
+        },
+        "f1": 0.5365909574532154,
+        "accuracy": 0.748641304347826,
+        "misclassified_cases": [
+          {
+            "case": 1762,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 650,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 1801,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 769,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 1042,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2433,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2857,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3798,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 3844,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 4147,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 3749,
+            "predicted": 2,
+            "expected": 1
+          },
+          {
+            "case": 1113,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2689,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 2341,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2050,
+            "predicted": 2,
+            "expected": 1
+          },
+          {
+            "case": 3099,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3573,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 4107,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 1031,
+            "predicted": 2,
+            "expected": 1
+          },
+          {
+            "case": 76,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2780,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1364,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 4165,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 1359,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3243,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3809,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2434,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1791,
+            "predicted": 2,
+            "expected": 1
+          },
+          {
+            "case": 3551,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 3782,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 264,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 3151,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 2477,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2229,
+            "predicted": 1,
+            "expected": 2
+          },
+          {
+            "case": 491,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 2089,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 3217,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 933,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 3570,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2519,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2648,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 3129,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3247,
+            "predicted": 2,
+            "expected": 1
+          },
+          {
+            "case": 293,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 754,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 365,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 4143,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2674,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 2078,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1138,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 2940,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 902,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2386,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 448,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3269,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 2614,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3860,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 885,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3747,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1483,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 1750,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 2951,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 3207,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 2962,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3977,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 614,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3335,
+            "predicted": 2,
+            "expected": 1
+          },
+          {
+            "case": 400,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2685,
+            "predicted": 2,
+            "expected": 1
+          },
+          {
+            "case": 741,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1758,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 1207,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3219,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1934,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 359,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 3266,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 265,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 4036,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3184,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 87,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 1261,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3865,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 583,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 90,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 668,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 2646,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2819,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1390,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1192,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1867,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 1169,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 970,
+            "predicted": 1,
+            "expected": 2
+          },
+          {
+            "case": 908,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 4097,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 1490,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2688,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1478,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1033,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 654,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 1368,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 251,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1143,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 1069,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 21,
+            "predicted": 2,
+            "expected": 1
+          },
+          {
+            "case": 3852,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 2679,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3142,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 961,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2079,
+            "predicted": 1,
+            "expected": 2
+          },
+          {
+            "case": 3001,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3656,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2398,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1624,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 1625,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 129,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2663,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 716,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 4103,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 1544,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 3936,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 3855,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 174,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 929,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 3915,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1332,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 1910,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2173,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 3539,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 1395,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 2277,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1283,
+            "predicted": 1,
+            "expected": 2
+          },
+          {
+            "case": 2361,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3824,
+            "predicted": 2,
+            "expected": 1
+          },
+          {
+            "case": 3429,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3002,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 1054,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 396,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2730,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1462,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 4149,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 3011,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 1388,
+            "predicted": 1,
+            "expected": 2
+          },
+          {
+            "case": 1372,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2768,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 3962,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 25,
+            "predicted": 2,
+            "expected": 1
+          },
+          {
+            "case": 2727,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 1216,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 3308,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 684,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 2021,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2257,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 3149,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 4194,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1150,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 2305,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 169,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1798,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 2244,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2132,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 2302,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3167,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3355,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 2062,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 1470,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2188,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2441,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 546,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 4064,
+            "predicted": 1,
+            "expected": 2
+          },
+          {
+            "case": 1338,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 290,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3182,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 2038,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1211,
+            "predicted": 1,
+            "expected": 0
+          },
+          {
+            "case": 1230,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 4162,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 1008,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 1775,
+            "predicted": 0,
+            "expected": 1
+          },
+          {
+            "case": 3752,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3804,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 3190,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 840,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 817,
+            "predicted": 0,
+            "expected": 2
+          },
+          {
+            "case": 351,
+            "predicted": 2,
+            "expected": 0
+          },
+          {
+            "case": 1552,
+            "predicted": 0,
+            "expected": 2
+          }
+        ]
+      }
+    ],
+    "f1_best": 0.5365909574532154,
+    "best_iteration_f1": 0,
+    "accuracy_best": 0.748641304347826,
+    "best_iteration_accuracy": 0
+  }
+}
